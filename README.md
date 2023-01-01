@@ -1,4 +1,4 @@
-Ruby Recursion
+## Ruby Recursion
 
 Ruby examples using recursion:
 
