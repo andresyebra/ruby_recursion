@@ -2,7 +2,6 @@
 
 # Class to define the sequence using recursion.
 class Fibonacci
-
   # Method to initialize fibonacci sequence
   # @return [self]
   def initialize

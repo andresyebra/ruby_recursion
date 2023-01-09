@@ -2,7 +2,7 @@
 
 
 **Fibonacci** sequence is a type series where each number is the sum of two numbers that precede it.
-It starts from 0 and 1 usually. 
+It starts from `0` and `1` usually. 
 
 ### Example
 
