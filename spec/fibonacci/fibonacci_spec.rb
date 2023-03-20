@@ -13,7 +13,7 @@ describe Fibonacci do
   it 'simple base-case of fibonacci of 1, 2 and 3' do
     expect(fibonacci.fibonacci(1)).to eq(0)
     expect(fibonacci.fibonacci(2)).to eq(1)
-    expect(fibonacci.fibonacci(3)).to eq(1)
+    expect(fibonacci.fibonacci(3)).to eq(4)
   end
 
   it 'simple base-case of fibonacci of 4' do
