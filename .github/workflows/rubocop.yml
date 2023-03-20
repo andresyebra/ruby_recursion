@@ -1,8 +1,8 @@
-name: RSpec
+name: Rubocop
 on: [pull_request]
 
 jobs:
-  check-rspec-tests:
+  check-rubocop:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -10,7 +10,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ruby-3.2.0
-          bundler-cache: true
-      - name: Run tests
-        run: |
-          bundle exec rspec
+      - run: bundle install
+      - name: Rubocop
+        run: rubocop
