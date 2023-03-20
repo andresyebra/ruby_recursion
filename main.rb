@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'byebug'
-require_relative 'lib/fibonacci/fibonacci'
-require_relative 'lib/factorial/factorial'
-require_relative 'lib/towers/towers'
+require "byebug"
+require_relative "lib/fibonacci/fibonacci"
+require_relative "lib/factorial/factorial"
+require_relative "lib/towers/towers"
 
 # Example Fibonacci:
 fib = Fibonacci.new
